@@ -1,0 +1,74 @@
+LICENSE
+
+This repository contains two kinds of material, and each is licensed separately.
+
+
+1. WRITTEN CONTENT
+
+All written content in this repository (documentation, tutorials, guides, README
+files, prose, tables, and other text) is licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0).
+
+Full legal code:  https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary:  https://creativecommons.org/licenses/by/4.0/
+
+The full text of the CC BY 4.0 license is not reproduced here. The authoritative
+version is the legal code at the link above, and that version governs.
+
+Under CC BY 4.0 you are free to share the material (copy and redistribute it in
+any medium or format) and to adapt it (remix, transform, and build upon it) for
+any purpose, including commercially, provided that you give appropriate credit,
+provide a link to the license, and indicate if changes were made. You may do so
+in any reasonable manner, but not in any way that suggests the licensor endorses
+you or your use. You may not apply legal terms or technological measures that
+legally restrict others from doing anything the license permits.
+
+Example attribution line:
+
+    "MCP Social Media Guide" by CRM Solid
+    (https://github.com/CRM-Solid/mcp-social-media-guide),
+    licensed under CC BY 4.0
+    (https://creativecommons.org/licenses/by/4.0/).
+    Changes were made.
+
+Drop the final sentence if you have not modified the material.
+
+
+2. CODE SAMPLES AND CONFIGURATION SNIPPETS
+
+All code samples, configuration snippets, JSON and JSONC examples, shell
+commands, and other machine-readable material in this repository are
+additionally available under the MIT License, reproduced in full below. You may
+use either CC BY 4.0 or the MIT License for that material, at your option.
+
+
+MIT License
+
+Copyright (c) 2026 CRM Solid
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+3. TRADEMARKS
+
+Neither license grants rights to the CRM Solid name or logo, or to any other
+trademark referenced in this repository. Platform names (Instagram, Facebook, X,
+LinkedIn, TikTok, YouTube, Threads, Pinterest, Reddit, Bluesky, Telegram,
+WhatsApp) are the trademarks of their respective owners and are used here for
+identification only.
