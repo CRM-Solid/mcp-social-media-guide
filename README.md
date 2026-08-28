@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="./docs/images/social-media-mcp-guide.png"
+       alt="Social Media MCP Guide: seven runnable tutorials for DM triage, content calendars and cross posting"
+       width="900">
+</p>
+
 # Social Media MCP Servers: A Practical Guide to Running DMs and Posts From an AI Assistant
 
 An MCP server is a small program that hands an AI assistant a set of typed tools, so the model can call `list_conversations` or `schedule_post` instead of you clicking through six browser tabs. Social media MCP servers are the subset of those servers that wrap DM inboxes, scheduled posts and engagement data. The work fits the protocol well because it is mostly small, repetitive, well bounded actions over messy natural language: read the inbox, sort by intent, draft a reply, queue a post for Tuesday. This repository is seven tutorials and the reference material around them, written to be useful whichever server you run.
