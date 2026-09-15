@@ -279,4 +279,4 @@ Write down the tool count for each entry. The gap between them is exactly the au
 
 [Tutorial 02: AI DM triage workflow](./02-ai-dm-triage-workflow.md) turns these read calls into a repeatable pass over a real inbox, including the messaging window rules that decide which replies can still be delivered. If you are wiring this into a shared workspace, read [tutorial 07: MCP security checklist](./07-mcp-security-checklist.md) first. For scheduling that survives daylight saving, see [tutorial 03: AI content calendar](./03-ai-content-calendar.md).
 
-Tool reference and full parameter lists: [docs.pinlyx.com/integrations/mcp/](https://docs.pinlyx.com/integrations/mcp/). Package: [@crmsolid/mcp-server on npm](https://www.npmjs.com/package/@crmsolid/mcp-server). Source: [github.com/CRM-Solid/crmsolid-mcp](https://github.com/CRM-Solid/crmsolid-mcp).
+Tool reference and full parameter lists: [docs.pinlyx.com/integrations/mcp/](https://docs.pinlyx.com/integrations/mcp/). Package: [@crmsolid/mcp-server on npm](https://www.npmjs.com/package/@crmsolid/mcp-server). Source: [github.com/CRM-Solid/pinlyx-mcp](https://github.com/CRM-Solid/pinlyx-mcp).
