@@ -156,7 +156,7 @@ npm pack @crmsolid/mcp-server@1.2.0
 tar -xzf crmsolid-mcp-server-1.2.0.tgz
 ```
 
-The package requires Node 20 or newer, ships as ESM, and is MIT licensed. Record the resolved version in your change log and treat an upgrade as a change: review the diff between the tag you ran and the tag you are moving to, in [the source](https://github.com/CRM-Solid/pinlyx-mcp).
+The package requires Node 20 or newer, ships as ESM, and is MIT licensed. Record the resolved version in your change log and treat an upgrade as a change: review the diff between the tag you ran and the tag you are moving to, in [the source](https://github.com/Pinlyx/pinlyx-mcp).
 
 ## Audit trails: the questions you must be able to answer
 
@@ -251,4 +251,4 @@ Copy into a ticket. Each item is done or not done.
 - [Social media reporting with AI](./06-social-media-reporting-with-ai.md)
 - [Repository index](../README.md)
 
-External: [MCP spec](https://modelcontextprotocol.io), [Pinlyx MCP docs](https://docs.pinlyx.com/integrations/mcp/), [security page](https://pinlyx.com/security), [npm package](https://www.npmjs.com/package/@crmsolid/mcp-server), [source](https://github.com/CRM-Solid/pinlyx-mcp).
+External: [MCP spec](https://modelcontextprotocol.io), [Pinlyx MCP docs](https://docs.pinlyx.com/integrations/mcp/), [security page](https://pinlyx.com/security), [npm package](https://www.npmjs.com/package/@crmsolid/mcp-server), [source](https://github.com/Pinlyx/pinlyx-mcp).

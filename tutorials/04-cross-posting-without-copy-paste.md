@@ -312,5 +312,5 @@ Then do the part that teaches you something: work out whether the winning varian
 - [07: MCP Security Checklist](./07-mcp-security-checklist.md) covers scope minimisation, `--read-only`, and key rotation.
 - [02: AI DM Triage](./02-ai-dm-triage-workflow.md) for the inbox side of the same server.
 - Full tool reference and argument lists: [docs.pinlyx.com/integrations/mcp/](https://docs.pinlyx.com/integrations/mcp/)
-- Package: [@crmsolid/mcp-server on npm](https://www.npmjs.com/package/@crmsolid/mcp-server) and [source on GitHub](https://github.com/CRM-Solid/pinlyx-mcp)
+- Package: [@crmsolid/mcp-server on npm](https://www.npmjs.com/package/@crmsolid/mcp-server) and [source on GitHub](https://github.com/Pinlyx/pinlyx-mcp)
 - Back to [the guide index](../README.md)

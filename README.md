@@ -65,7 +65,7 @@ Pick by how many platforms you need, how much maintenance you want to own, and w
 | Generic HTTP request MCP servers | A server exposing one `fetch` or `http_request` tool that can call any URL | Works with any REST API on day one. No wrapper to write | No schemas, no annotations, no per action scoping. The model composes the URL and body itself, which is the surface prompt injection abuses. Fine for read only exploration, bad for sends |
 | Browser automation MCP servers | Playwright or CDP driven servers that operate a logged in browser session | Reaches networks that expose no usable API | Brittle against every UI change, and driving a logged in social account this way violates the terms of service of most major networks. Read the contract you signed first |
 
-To try the first row: the package is on [npm](https://www.npmjs.com/package/@crmsolid/mcp-server), the source is on [GitHub](https://github.com/CRM-Solid/pinlyx-mcp), and the tool reference is at [docs.pinlyx.com/integrations/mcp/](https://docs.pinlyx.com/integrations/mcp/). Tutorial 01 uses it for the worked example because a concrete server beats a hypothetical one. The concepts transfer to every other option in the table.
+To try the first row: the package is on [npm](https://www.npmjs.com/package/@crmsolid/mcp-server), the source is on [GitHub](https://github.com/Pinlyx/pinlyx-mcp), and the tool reference is at [docs.pinlyx.com/integrations/mcp/](https://docs.pinlyx.com/integrations/mcp/). Tutorial 01 uses it for the worked example because a concrete server beats a hypothetical one. The concepts transfer to every other option in the table.
 
 ## The five problems everyone hits
 

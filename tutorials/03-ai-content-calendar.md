@@ -317,5 +317,5 @@ Do that four weeks running and the style file becomes the most valuable asset in
 - [06: Social Media Reporting With AI](./06-social-media-reporting-with-ai.md) closes the loop on measurement.
 - [07: MCP Security Checklist](./07-mcp-security-checklist.md) covers scopes and key handling before this runs on a shared machine.
 - Full tool reference: [docs.pinlyx.com/integrations/mcp/](https://docs.pinlyx.com/integrations/mcp/)
-- Package: [@crmsolid/mcp-server on npm](https://www.npmjs.com/package/@crmsolid/mcp-server) and [source on GitHub](https://github.com/CRM-Solid/pinlyx-mcp)
+- Package: [@crmsolid/mcp-server on npm](https://www.npmjs.com/package/@crmsolid/mcp-server) and [source on GitHub](https://github.com/Pinlyx/pinlyx-mcp)
 - Back to [the guide index](../README.md)

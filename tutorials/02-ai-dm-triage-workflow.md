@@ -390,5 +390,5 @@ For a harder version: add a fifth category called `partner`, for people proposin
 - [06: Social Media Reporting With AI](./06-social-media-reporting-with-ai.md) turns the two metrics above into a weekly report.
 - [07: MCP Security Checklist](./07-mcp-security-checklist.md) covers scope minimisation and key rotation before you put this on a shared machine.
 - Full tool reference and argument lists: [docs.pinlyx.com/integrations/mcp/](https://docs.pinlyx.com/integrations/mcp/)
-- Package: [@crmsolid/mcp-server on npm](https://www.npmjs.com/package/@crmsolid/mcp-server) and [source on GitHub](https://github.com/CRM-Solid/pinlyx-mcp)
+- Package: [@crmsolid/mcp-server on npm](https://www.npmjs.com/package/@crmsolid/mcp-server) and [source on GitHub](https://github.com/Pinlyx/pinlyx-mcp)
 - Back to [the guide index](../README.md)
