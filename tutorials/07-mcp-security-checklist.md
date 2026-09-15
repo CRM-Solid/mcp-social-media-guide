@@ -1,6 +1,6 @@
 # MCP Security Checklist: Giving an AI Assistant Access Without Regret
 
-This MCP security checklist covers the five ways access to a Model Context Protocol server goes wrong in production: a stolen key, a confused model, a malicious inbound message, a compromised dependency, and a shared machine. For each one it gives the control that stops it, the configuration that proves the control is on, and what to do once it has already happened. The 20 item list at the bottom is the version you copy into a ticket. Examples use the CRM Solid MCP server; the reasoning applies to any MCP server holding a credential for you. The protocol itself is at [modelcontextprotocol.io](https://modelcontextprotocol.io).
+This MCP security checklist covers the five ways access to a Model Context Protocol server goes wrong in production: a stolen key, a confused model, a malicious inbound message, a compromised dependency, and a shared machine. For each one it gives the control that stops it, the configuration that proves the control is on, and what to do once it has already happened. The 20 item list at the bottom is the version you copy into a ticket. Examples use the Pinlyx MCP server; the reasoning applies to any MCP server holding a credential for you. The protocol itself is at [modelcontextprotocol.io](https://modelcontextprotocol.io).
 
 ## The threat model: five things that actually happen
 
@@ -251,4 +251,4 @@ Copy into a ticket. Each item is done or not done.
 - [Social media reporting with AI](./06-social-media-reporting-with-ai.md)
 - [Repository index](../README.md)
 
-External: [MCP spec](https://modelcontextprotocol.io), [CRM Solid MCP docs](https://docs.crmsolid.com/integrations/mcp/), [security page](https://crmsolid.com/security), [npm package](https://www.npmjs.com/package/@crmsolid/mcp-server), [source](https://github.com/CRM-Solid/crmsolid-mcp).
+External: [MCP spec](https://modelcontextprotocol.io), [Pinlyx MCP docs](https://docs.pinlyx.com/integrations/mcp/), [security page](https://pinlyx.com/security), [npm package](https://www.npmjs.com/package/@crmsolid/mcp-server), [source](https://github.com/CRM-Solid/crmsolid-mcp).

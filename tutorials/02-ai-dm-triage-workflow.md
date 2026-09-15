@@ -1,6 +1,6 @@
 # AI DM Triage: Build a Morning Routine That Clears a Social Inbox
 
-AI DM triage means handing your unanswered social messages to an assistant, having it sort them into a few fixed categories, draft the easy replies, and return a table you approve before anything is sent. This tutorial builds that routine end to end over the Model Context Protocol. It uses the CRM Solid MCP server as the bridge to Instagram, LinkedIn, X and nine other platforms, but the shape of the routine works against any MCP server that exposes a social inbox.
+AI DM triage means handing your unanswered social messages to an assistant, having it sort them into a few fixed categories, draft the easy replies, and return a table you approve before anything is sent. This tutorial builds that routine end to end over the Model Context Protocol. It uses the Pinlyx MCP server as the bridge to Instagram, LinkedIn, X and nine other platforms, but the shape of the routine works against any MCP server that exposes a social inbox.
 
 You finish with one saved prompt, a short list of things the assistant is never allowed to answer, and two numbers that tell you whether the routine earned its place.
 
@@ -275,7 +275,7 @@ Do not create tasks for spam.
 }
 ```
 
-The task family is documented alongside every other tool at [docs.crmsolid.com/integrations/mcp/](https://docs.crmsolid.com/integrations/mcp/). Check the argument list there before scripting this step, since the task tools predate the social ones and carry their own fields.
+The task family is documented alongside every other tool at [docs.pinlyx.com/integrations/mcp/](https://docs.pinlyx.com/integrations/mcp/). Check the argument list there before scripting this step, since the task tools predate the social ones and carry their own fields.
 
 **Verify.** Task count equals complaint count. If your task list is empty on a day with complaints, the assistant treated "do not create tasks for spam" as "do not create tasks".
 
@@ -389,6 +389,6 @@ For a harder version: add a fifth category called `partner`, for people proposin
 - [03: AI Content Calendar](./03-ai-content-calendar.md) applies the same approve-then-write pattern to publishing instead of replying.
 - [06: Social Media Reporting With AI](./06-social-media-reporting-with-ai.md) turns the two metrics above into a weekly report.
 - [07: MCP Security Checklist](./07-mcp-security-checklist.md) covers scope minimisation and key rotation before you put this on a shared machine.
-- Full tool reference and argument lists: [docs.crmsolid.com/integrations/mcp/](https://docs.crmsolid.com/integrations/mcp/)
+- Full tool reference and argument lists: [docs.pinlyx.com/integrations/mcp/](https://docs.pinlyx.com/integrations/mcp/)
 - Package: [@crmsolid/mcp-server on npm](https://www.npmjs.com/package/@crmsolid/mcp-server) and [source on GitHub](https://github.com/CRM-Solid/crmsolid-mcp)
 - Back to [the guide index](../README.md)

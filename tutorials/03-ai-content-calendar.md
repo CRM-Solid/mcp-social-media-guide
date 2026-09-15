@@ -1,6 +1,6 @@
 # AI Content Calendar: Plan and Schedule a Week of Social Posts With One Prompt
 
-An AI content calendar is a weekly planning session where your assistant reads what actually happened in your business last week, proposes a themed set of posts, writes them in your voice, and schedules the ones you approve. This tutorial builds that session over the Model Context Protocol against a CRM Solid MCP server, which holds the connections to LinkedIn, X, Instagram, Threads, TikTok and seven other platforms.
+An AI content calendar is a weekly planning session where your assistant reads what actually happened in your business last week, proposes a themed set of posts, writes them in your voice, and schedules the ones you approve. This tutorial builds that session over the Model Context Protocol against a Pinlyx MCP server, which holds the connections to LinkedIn, X, Instagram, Threads, TikTok and seven other platforms.
 
 The session takes about 25 minutes on a Monday morning and produces five to seven scheduled posts. Everything the assistant writes lands at a parking time first, far enough out that you review before anything moves, which is the safety property the whole workflow is built on.
 
@@ -316,6 +316,6 @@ Do that four weeks running and the style file becomes the most valuable asset in
 - [05: Escalation and Human Handoff](./05-escalation-and-human-handoff.md) covers the replies a published post generates, and who owns them.
 - [06: Social Media Reporting With AI](./06-social-media-reporting-with-ai.md) closes the loop on measurement.
 - [07: MCP Security Checklist](./07-mcp-security-checklist.md) covers scopes and key handling before this runs on a shared machine.
-- Full tool reference: [docs.crmsolid.com/integrations/mcp/](https://docs.crmsolid.com/integrations/mcp/)
+- Full tool reference: [docs.pinlyx.com/integrations/mcp/](https://docs.pinlyx.com/integrations/mcp/)
 - Package: [@crmsolid/mcp-server on npm](https://www.npmjs.com/package/@crmsolid/mcp-server) and [source on GitHub](https://github.com/CRM-Solid/crmsolid-mcp)
 - Back to [the guide index](../README.md)

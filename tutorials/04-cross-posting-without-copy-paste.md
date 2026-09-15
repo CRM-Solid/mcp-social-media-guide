@@ -1,6 +1,6 @@
 # Cross Post to Multiple Social Networks Without Copy and Paste
 
-To cross post to multiple social networks properly, you write one source note, ask your assistant for a variant per platform, schedule the variants as a single batch, then edit any individual variant that needs it. What you do not do is paste identical text into five boxes. This tutorial walks the whole loop over the Model Context Protocol against a CRM Solid MCP server, taking one idea to LinkedIn, X, Instagram, Threads and TikTok.
+To cross post to multiple social networks properly, you write one source note, ask your assistant for a variant per platform, schedule the variants as a single batch, then edit any individual variant that needs it. What you do not do is paste identical text into five boxes. This tutorial walks the whole loop over the Model Context Protocol against a Pinlyx MCP server, taking one idea to LinkedIn, X, Instagram, Threads and TikTok.
 
 The identical dump is the default because it is easy, and it is also why cross posted content underperforms native content on every platform at once. A 900 character LinkedIn post truncated into X is not a shorter post, it is a broken one.
 
@@ -311,6 +311,6 @@ Then do the part that teaches you something: work out whether the winning varian
 - [06: Social Media Reporting With AI](./06-social-media-reporting-with-ai.md) turns `crm_social_post_stats` into a monthly comparison you can act on.
 - [07: MCP Security Checklist](./07-mcp-security-checklist.md) covers scope minimisation, `--read-only`, and key rotation.
 - [02: AI DM Triage](./02-ai-dm-triage-workflow.md) for the inbox side of the same server.
-- Full tool reference and argument lists: [docs.crmsolid.com/integrations/mcp/](https://docs.crmsolid.com/integrations/mcp/)
+- Full tool reference and argument lists: [docs.pinlyx.com/integrations/mcp/](https://docs.pinlyx.com/integrations/mcp/)
 - Package: [@crmsolid/mcp-server on npm](https://www.npmjs.com/package/@crmsolid/mcp-server) and [source on GitHub](https://github.com/CRM-Solid/crmsolid-mcp)
 - Back to [the guide index](../README.md)

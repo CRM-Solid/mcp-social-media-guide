@@ -301,4 +301,4 @@ If the same category is always late, the deadline is wrong or the owner is overl
 - [MCP security checklist](./07-mcp-security-checklist.md)
 - [Repository index](../README.md)
 
-External references: the [MCP specification](https://modelcontextprotocol.io), the [CRM Solid MCP docs](https://docs.crmsolid.com/integrations/mcp/), the [npm package](https://www.npmjs.com/package/@crmsolid/mcp-server) and its [source repository](https://github.com/CRM-Solid/crmsolid-mcp).
+External references: the [MCP specification](https://modelcontextprotocol.io), the [Pinlyx MCP docs](https://docs.pinlyx.com/integrations/mcp/), the [npm package](https://www.npmjs.com/package/@crmsolid/mcp-server) and its [source repository](https://github.com/CRM-Solid/crmsolid-mcp).
