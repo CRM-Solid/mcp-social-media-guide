@@ -20,9 +20,9 @@ One structural fact reduces four of these five before you configure anything. Th
 
 Three places to narrow access. They fail independently, which is the point.
 
-**Scopes, on the key.** Granted per key at [the API keys screen](https://app.crmsolid.com/settings/developers), enforced server side. Social and posting use four: `social:read`, `social:write`, `posts:read`, `posts:write`. Older families follow the same `family:action` shape: `contacts:read`, `deals:read`, `tasks:write`, `email:read`, `finance:read`, `analytics:read`, `webhooks:write`, `agents:run`. The key is all an attacker gets, so its scopes are the last limit standing.
+**Scopes, on the key.** Granted per key at [the API keys screen](https://app.pinlyx.com/settings/developers), enforced server side. Social and posting use four: `social:read`, `social:write`, `posts:read`, `posts:write`. Older families follow the same `family:action` shape: `contacts:read`, `deals:read`, `tasks:write`, `email:read`, `finance:read`, `analytics:read`, `webhooks:write`, `agents:run`. The key is all an attacker gets, so its scopes are the last limit standing.
 
-**Tool filters, in the local proxy.** `--tools social,posts` restricts the surface to those families. The filter runs locally, before the client sees anything, so a filtered tool is not listed and not callable. The server publishes 62 tools, 21 resources and 15 prompts. A triage session needs about eight.
+**Tool filters, in the local proxy.** `--tools social,posts` restricts the surface to those families. The filter runs locally, before the client sees anything, so a filtered tool is not listed and not callable. The server publishes 76 tools, 21 resources and 15 prompts. A triage session needs about eight.
 
 **Read-only mode.** `--read-only` drops every write tool in the proxy. The model cannot call what was never in `tools/list`.
 
@@ -177,7 +177,7 @@ Your MCP client also keeps a transcript, and that transcript holds customer mess
 
 Order matters. Revoke first, investigate second. A perfect investigation of a live key is a slower breach.
 
-1. **Minute 0.** Revoke the key at [the API keys screen](https://app.crmsolid.com/settings/developers). Do not wait for proof it was misused.
+1. **Minute 0.** Revoke the key at [the API keys screen](https://app.pinlyx.com/settings/developers). Do not wait for proof it was misused.
 2. **Minute 2.** Issue a replacement with narrower scopes. Update only the clients that need it.
 3. **Minute 5.** Pull the audit trail for the revoked key: every tool call, with arguments, since it was created. The first call you cannot account for is your start of window.
 4. **Minute 15.** List `pending` and `processing` posts with `crm_list_social_posts` and cancel anything you did not create with `crm_cancel_social_post`. Published posts are never deleted upstream by the API, so a human corrects those on the platform.

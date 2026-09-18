@@ -35,7 +35,7 @@ If `node` is missing or reports `v18` or lower, install the current LTS from nod
 
 ## Step 2: Create an API key and put it in your environment
 
-Open [app.crmsolid.com/settings/developers](https://app.crmsolid.com/settings/developers), create a key, and grant it four scopes: `social:read`, `social:write`, `posts:read` and `posts:write`. Copy the value, which starts with `csk_live_`. It is shown once.
+Open [app.pinlyx.com/settings/developers](https://app.pinlyx.com/settings/developers), create a key, and grant it four scopes: `social:read`, `social:write`, `posts:read` and `posts:write`. Copy the value, which starts with `csk_live_`. It is shown once.
 
 Scopes are per key, so give this one only what this tutorial needs. If you are only reading, grant the two read scopes and stop there.
 
@@ -138,7 +138,7 @@ Closing the window is not restarting. Quit the application completely, including
 - **Claude Code:** run `claude mcp list` in a terminal, or `/mcp` inside a session. Expect `crmsolid: connected`.
 - **Cursor:** open Settings, then MCP. The server shows as enabled with its tools listed.
 
-With no filters applied, this server publishes 62 tools, 21 resources and 15 prompts. Seeing a smaller number is not a bug on its own: some clients cap how many tools they forward to the model. It does mean you should narrow the surface, which step 8 covers.
+With no filters applied, this server publishes 76 tools, 21 resources and 15 prompts. Seeing a smaller number is not a bug on its own: some clients cap how many tools they forward to the model. It does mean you should narrow the surface, which step 8 covers.
 
 **Verify:** the server name appears and the tool count is greater than zero. If it is listed but shows an error badge, open the client's MCP log and read the first error, not the last one.
 

@@ -70,7 +70,7 @@ Do not open any conversations yet.
 
 Read `awaitingReply` as the conversations sitting unanswered, oldest first, capped at ten. Those are the ones that decide your order of work today, whatever platform they are on, and `unreadConversations` tells you how much is behind them.
 
-**Verify.** You got the count fields, a `platforms` array and an `awaitingReply` array. If the call fails with a scope error, the key is missing `social:read`. Regenerate it at `https://app.crmsolid.com/settings/developers` and restart the client so the proxy picks up the new key.
+**Verify.** You got the count fields, a `platforms` array and an `awaitingReply` array. If the call fails with a scope error, the key is missing `social:read`. Regenerate it at `https://app.pinlyx.com/settings/developers` and restart the client so the proxy picks up the new key.
 
 ## Step 2: Pull one small, filtered queue
 
